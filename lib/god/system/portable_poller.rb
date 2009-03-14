@@ -11,12 +11,12 @@ module God
       
       # Percentage memory usage
       def percent_memory
-        ps_float('%mem')
+        ps_float('pmem')
       end
       
       # Percentage CPU usage
       def percent_cpu
-        ps_float('%cpu')
+        ps_float('pcpu')
       end
       
       private
